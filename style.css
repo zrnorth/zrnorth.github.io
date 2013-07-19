@@ -1,0 +1,35 @@
+body {
+    min-width: 500px;
+}
+
+div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+#image {
+    background-color: black;
+    width: 175px;
+    height: 175px;
+    border-radius:50%; 
+    margin: 20 20 20 20;
+}
+
+#divider {
+    background-color: blue;
+    width: 4px;
+    height: 90%;
+    margin: 10 10 10 10;
+}
+
+#info {
+    background-color: green;
+    width: 1000px;
+    height: 700px;
+    margin: 20 20 20 20;
+
+}
+
