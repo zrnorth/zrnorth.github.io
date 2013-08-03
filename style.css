@@ -1,11 +1,11 @@
 body {
-    min-width: 500px;
-    background-color: #d5d8de;;
+    min-width: 950px;
+    background-color: #d5d8de;
     color: #34363c;
     font-family:  'Noto Serif', sans-serif;
 }
 
-div {
+.content{
     float: left;
 }
 
@@ -15,7 +15,7 @@ div {
     width: 240px;
     height: 240px;
     border-radius:50%; 
-    margin: 50 20 20 15%;
+    margin: 50px 20px 20px 20%;
     overflow: hidden;
 
     /* grayscale */
@@ -27,22 +27,11 @@ div {
     max-height: 100%;
 }
 
-#image:hover {
-    filter: none; /* ff, ie */
-    -webkit-filter: grayscale(0);
-}
-
-#divider {
-    width: 1px;
-    background-color: #314f7b;
-    height: 90%;
-    margin: 30 30 30 30;
-}
-
 #info {
-    width: 35%;
-    height: 25%;
-    margin: 40 20 20 20;
+    border-left: 1px solid #314f7b;
+    width: 40%;
+    height: 85%;
+    padding: 35px 10% 20px 20px;
 }
 
 h1 { 
@@ -53,20 +42,15 @@ h1 {
     color: #3a4f7b;
 }
 
-.name:hover {
-    color: #0872be;
-}
-
-
 h2 {
     font-family: 'Oxygen', sans-serif;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 400;
     font-style: italic;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 400;
     font-style: normal;
 }
