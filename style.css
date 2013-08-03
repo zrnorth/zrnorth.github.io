@@ -1,5 +1,5 @@
 body {
-    min-width: 1135px;
+    min-width: 1024px;
     background-color: #d5d8de;
     color: #34363c;
     font-family:  'Noto Serif', sans-serif;
@@ -15,7 +15,7 @@ body {
     width: 240px;
     height: 240px;
     border-radius:50%; 
-    margin: 50px 20px 20px 20%;
+    margin: 50px 25px 20px 20%;
     overflow: hidden;
 
     /* grayscale */
@@ -31,7 +31,7 @@ body {
     margin-top: 20px;
     border-left: 1px solid #314f7b;
     width: 45%;
-    padding: 10px 10% 30px 20px;
+    padding: 10px 5% 30px 25px;
 }
 
 h1 { 
