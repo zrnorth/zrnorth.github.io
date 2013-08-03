@@ -1,5 +1,5 @@
 body {
-    min-width: 950px;
+    min-width: 1135px;
     background-color: #d5d8de;
     color: #34363c;
     font-family:  'Noto Serif', sans-serif;
@@ -28,10 +28,10 @@ body {
 }
 
 #info {
+    margin-top: 20px;
     border-left: 1px solid #314f7b;
-    width: 40%;
-    height: 85%;
-    padding: 35px 10% 20px 20px;
+    width: 45%;
+    padding: 10px 10% 30px 20px;
 }
 
 h1 { 
