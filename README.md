@@ -1,4 +1,6 @@
-My personal website.
+My personal website. Pretty basic, just a static page for now.
 
-I need a new photo, as the current one isn't really centered at all.
+TODO:
+Get a linkedin.
+related: I need a new photo, as the current one isn't really centered at all.
 
