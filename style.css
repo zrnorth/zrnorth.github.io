@@ -1,73 +1,67 @@
 body {
-    min-width: 1024px;
-    background-color: #d5d8de;
+    background-color: #EDEDED;
     color: #34363c;
     font-family:  'Noto Serif', sans-serif;
-}
-
-.content{
-    float: left;
-}
-
-#image {
-    background-color: white;
-    border: 1px solid #34363c;
-    width: 240px;
-    height: 240px;
-    border-radius:50%; 
-    margin: 50px 25px 20px 20%;
-    overflow: hidden;
-
-    /* grayscale */
-    -webkit-filter: grayscale(0.3); /* chrome, safari */
-}
-
-#image img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#info {
-    margin-top: 20px;
-    border-left: 1px solid #314f7b;
-    width: 45%;
-    padding: 10px 5% 30px 25px;
+    text-align: center;
 }
 
 h1 { 
-    font-size: 56px;
+    font-size: 60px;
+    line-height: 30px;
 }
 
-.name { 
-    color: #3a4f7b;
+.center-div {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 600px;
 }
 
-h2 {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 38px;
-    font-weight: 400;
-    font-style: italic;
+img {
+    position: relative;
+    border: 1px solid #34363c;
+    width: 250px;
+    height: 250px;
+    border-radius:50%; 
+    overflow: hidden;
 }
 
-h3 {
-    font-size: 24px;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-p {
-    font-family: serif;
-    font-size: 20px;
-    line-height: 2em;
+.icons {
+    letter-spacing: 20px;
 }
 
 a {
     text-decoration: none;
-    color: #3e9cde;
 }
 
-a:hover {
-    background-color: #0872be;
+a:link {
+    color: #34363c;
 }
+a:visited {
+    color: #34363c;
+}
+
+.mail:hover {
+    color: #3A6CE8;
+}
+
+.github:hover {
+    color: #4DAFFF;
+}
+
+.linkedin:hover {
+    color: #3AC8E8;
+}
+
+/*
+a:hover {
+    color: #006A6B;
+}*/
+
+
+
 

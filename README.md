@@ -1,6 +1,1 @@
-My personal website. Pretty basic, just a static page for now.
-
-TODO:
-Get a linkedin.
-related: I need a new photo, as the current one isn't really centered at all.
-
+This is my personal site. It's hosted on zrn.io, but you can also get there from zachnorth.com.
