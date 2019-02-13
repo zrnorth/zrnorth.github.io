@@ -1,61 +1,110 @@
+/* defaults */
 body {
-    background-color: #EDEDED;
-    color: #34363c;
-    font-family: 'Merriweather', sans-serif;
-    font-style: italic;
-    text-align: center;
+  background-color: #ededed;
+  color: #34363c;
+  font-family: "Merriweather", sans-serif;
+  font-style: italic;
+  text-align: center;
 }
 
-h1 { 
-    font-size: 60px;
-    line-height: 30px;
+h1 {
+  font-size: 60px;
+  line-height: 30px;
 }
 
-.center-div {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 400px;
-    height: 500px;
+h2 {
+  font-size: 38px;
+  line-height: 19px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 12px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 8px;
 }
 
 img {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    border-radius:50%; 
-    overflow: hidden;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+img.square-img {
+  border-radius: 0;
+}
+
+a:link {
+  color: #34363c;
+}
+
+a:visited {
+  color: #34363c;
+}
+
+.center-div {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 400px;
+}
+
+/* icons */
+.icons a.github,
+.icons a.linkedin,
+.icons a.mail {
+  text-decoration: none;
 }
 
 .icons .mail {
   margin-right: 40px;
 }
 
-.icons .linkedin{
+.icons .linkedin {
   margin-left: 40px;
 }
-a {
-    text-decoration: none;
+
+.icons .mail:hover {
+  color: #3a6ce8;
 }
 
-a:link {
-    color: #34363c;
-}
-a:visited {
-    color: #34363c;
+a:hover,
+.icons .github:hover {
+  color: #4dafff;
 }
 
-.mail:hover {
-    color: #3A6CE8;
+.icons .linkedin:hover {
+  color: #3ac8e8;
 }
 
-.github:hover {
-    color: #4DAFFF;
+/* styles for index page */
+.index {
+  height: 500px;
+  margin: auto;
 }
 
-.linkedin:hover {
-    color: #3AC8E8;
+/* styles for portfolio page */
+
+.portfolio {
+  margin: 0 auto;
+}
+
+.portfolio h1,
+.portfolio h2,
+.portfolio h3,
+.portfolio hr {
+  margin-top: 50px;
+}
+
+.portfolio .icons {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
