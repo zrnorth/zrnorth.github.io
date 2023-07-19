@@ -2,8 +2,7 @@
 body {
   background-color: #ededed;
   color: #34363c;
-  font-family: "Merriweather", sans-serif;
-  font-style: italic;
+  font-family: "Hubballi", sans-serif;
   text-align: center;
 }
 
@@ -25,6 +24,11 @@ h3 {
 h4 {
   font-size: 16px;
   line-height: 8px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 24px;
 }
 
 img {
@@ -60,16 +64,24 @@ a:visited {
 /* icons */
 .icons a.github,
 .icons a.linkedin,
+.icons a.itch,
 .icons a.mail {
   text-decoration: none;
 }
 
 .icons .mail {
-  margin-right: 40px;
+  margin-right: 36px;
+}
+.icons .github {
+  margin-right: 18px;
 }
 
 .icons .linkedin {
-  margin-left: 40px;
+  margin-left: 18px;
+}
+
+.icons .itch {
+  margin-left: 36px;
 }
 
 .icons .mail:hover {
